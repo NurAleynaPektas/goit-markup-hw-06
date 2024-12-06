@@ -755,25 +755,6 @@ img {
   margin: auto;
 }
 
-/*.modal-w-checkbox-input:checked {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
-
-.modal-w-checkbox-span:checked {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
-
-.modal-w-checkbox-label:checked {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
-  */
-
 .modal-w-checkbox-input:checked
   + .modal-w-checkbox-label
   .modal-w-checkbox-span {
@@ -782,3 +763,78 @@ img {
   fill: #f4f4fd;
 }
 /*HOPE İS FİNİSH.. */
+
+/*@MEDYA PLACES*/
+
+.modal-window-container-div {
+  display: none;
+}
+
+/*TABLET PLACES*/
+
+/*HEADER-ADRESS PLACES*/
+
+@media (min-width: 767px) and (max-width: 1158px) {
+  .container {
+    width: 100%;
+  }
+
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .nav-logo {
+    margin-left: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .header-ul {
+    width: 261px;
+    height: 48px;
+    margin-bottom: 16px;
+  }
+
+  .adress-ul {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 16px;
+    align-items: center;
+    margin-top: 16px;
+  }
+
+  /*MAİN FİRST PLACE*/
+
+  .main-div {
+  }
+
+  .main-first-section {
+  }
+
+  .h-effective {
+    width: 496px;
+    height: 120px;
+    margin-top: 112px;
+    margin-left: 136px;
+    margin-bottom: 204px;
+    align-items: center;
+  }
+
+  .svg {
+    display: none;
+  }
+
+  .h-part {
+    width: 264px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 36px;
+  }
+  .main-second-section-ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
