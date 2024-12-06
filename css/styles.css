@@ -841,10 +841,13 @@ img {
     gap: 24px;
     margin-top: 96px;
     margin-left: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-  .h3-p {
-    display: flex;
-    flex-direction: row;
+
+  .main-second-section-ul-li {
+    width: 356px;
+    height: 120px;
   }
 
   /*MAİN-SECTİON-THİRD-PART*/
