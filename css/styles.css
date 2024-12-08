@@ -770,6 +770,13 @@ img {
   border: none;
   fill: #f4f4fd;
 }
+
+/*MENU-STUDİO-PHONE-VİEW*/
+
+.phone-view-menu {
+  display: none;
+}
+
 /*HOPE İS FİNİSH.. */
 
 .is-open {
@@ -1034,6 +1041,7 @@ img {
   /*PHONE VİEW MENU*/
 
   .phone-view-menu {
+    display: block;
     width: 320px;
     height: 56px;
   }
