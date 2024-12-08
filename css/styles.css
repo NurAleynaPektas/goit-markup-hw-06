@@ -586,6 +586,7 @@ img {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: none;
 }
 
 .modal-window {
@@ -771,12 +772,16 @@ img {
 }
 /*HOPE İS FİNİSH.. */
 
-/*@MEDYA PLACES*/
-
-.modal-window-container-div {
-  display: none;
+.is-open {
+  display: block;
 }
 
+/*@MEDYA PLACES*/
+
+/*.modal-window-container-div {
+  display: none;
+}
+*/
 /*TABLET VİEW*/
 
 /*HEADER-ADRESS PLACES*/
@@ -814,12 +819,6 @@ img {
   }
 
   /*MAİN FİRST PLACE*/
-
-  .main-div {
-  }
-
-  .main-first-section {
-  }
 
   .h-effective {
     width: 496px;
@@ -1031,4 +1030,63 @@ img {
   .footer-form {
     flex-direction: column;
   }
+
+  /*PHONE VİEW MENU*/
+
+  .phone-view-menu {
+    width: 320px;
+    height: 56px;
+  }
+
+  .phone-menu h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .phone-menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+    margin-left: 16px;
+    margin-bottom: 168px;
+    gap: 40px;
+  }
+
+  .phone-link {
+    margin-left: 16px;
+    margin-bottom: 48px;
+  }
+
+  .phone-link-ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    column-gap: 24px;
+    row-gap: 24px;
+  }
+
+  .phone-icons {
+    padding-bottom: 40px;
+  }
+
+  .phone-icons-ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .phone-icons-li {
+    list-style-type: none;
+  }
+
+  .phone-svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  /*PHONE VİEW MODAL PLACE*/
 }
