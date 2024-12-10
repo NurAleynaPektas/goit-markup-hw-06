@@ -785,10 +785,10 @@ img {
 
 /*@MEDYA PLACES*/
 
-/*.modal-window-container-div {
+.modal-window-container-div {
   display: none;
 }
-*/
+
 /*TABLET VİEW*/
 
 /*HEADER-ADRESS PLACES*/
@@ -1041,7 +1041,7 @@ img {
   /*PHONE VİEW MENU*/
 
   .phone-view-menu {
-    display: block;
+    display: none;
     width: 320px;
     height: 56px;
   }
